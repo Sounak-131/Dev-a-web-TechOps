@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="navbar">
+        OFFLINE SIMPLE CALCULATOR
+    </div>
+    <div class="calcbox">
+        <input type="text" class="blank" id="result" disabled/>
+        <input type="button" class="one" onclick="disp('1')" value="1"/>
+        <input type="button" class="two" onclick="disp('2')" value="2"/>
+        <input type="button"class="three" onclick="disp('3')" value="3"/>
+        <input type="button" class="four" onclick="disp('4')" value="4"/>
+        <input type="button" class="five" onclick="disp('5')" value="5"/>
+        <input type="button" class="six" onclick="disp('6')" value="6"/>
+        <input type="button" class="seven" onclick="disp('7')" value="7"/>
+        <input type="button" class="eight" onclick="disp('8')" value="8"/>
+        <input type="button" class="nine" onclick="disp('9')" value="9"/>
+        <input type="button" class="zero" onclick="disp('0')" value="0"/>
+        <input type="button" class="plus" onclick="disp('+')" value="+"> 
+        <input type="button" class="minus" onclick="disp('-')" value="-">
+        <input type="button" class="multiply" onclick="disp('*')" value="*">
+        <input type="button" class="divide" onclick="disp('/')" value="/">
+        <input type="button" class="point" onclick="disp('.')" value=".">
+        <input type="button" class="clear" onclick="clrscr()" value="C">
+        <input type="button" class="equal" onclick="calculate()" value="=">
+    </div>
+    <script src="controls.js"></script>
+</body>
+</html>

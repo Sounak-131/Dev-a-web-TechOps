@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+}
+fieldset{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(158, 242, 245);
+}
+#name{
+    font-size: larger;
+}
+#sub{
+    font-size: 20px;
+    padding: 6px;
+    color: aliceblue;
+    background-color: blue;
+}
+#sub:hover{
+    font-size: 24px;
+}
